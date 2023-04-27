@@ -36,7 +36,7 @@ const data = [
 function Services() {
   return (
     <div
-      className='flex flex-col justify-center items-center gap-10 pb-32'
+      className='flex flex-col justify-center items-center gap-10'
     >
       <div
         className="text-3xl font-semibold "
