@@ -2,7 +2,7 @@
 function Hero() {
   return (
     <div
-        className="flex flex-col justify-center items-center mt-[12vh] pt-16"
+        className="flex flex-col justify-center items-center mt-[12vh] pt-16 gap-1"
     >
         <div
             className="text-4xl font-bold"

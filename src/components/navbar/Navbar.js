@@ -8,7 +8,7 @@ function Navbar() {
     >
       <Logo/>
       <div
-        className="flex flex-row justify-between w-[20vw] "
+        className="flex flex-row justify-between w-[21vw] "
       >
         <Button
           label="Login"
