@@ -12,7 +12,7 @@ const App = createBrowserRouter([
     element: <Home />
   },
   {
-    path: '/shipment',
+    path: '/trackShipment',
     element: <Shipment />
   }
 ])

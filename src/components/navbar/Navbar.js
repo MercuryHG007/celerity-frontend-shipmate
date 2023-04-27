@@ -46,7 +46,7 @@ const Navbar = ({ userMenu }) => {
         <div>
           <Button
             label="Track Shipment"
-            onClick={() => navigate('/shipment')}
+            onClick={() => navigate('/trackShipment')}
           />
         </div>
       </div>

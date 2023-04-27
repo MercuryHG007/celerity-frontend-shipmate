@@ -30,6 +30,7 @@ function ProgressBar() {
           key={step.num}
           num={step.num}
           title={step.title}
+          active={step.active}
         />
       ))}
     </div>
