@@ -1,0 +1,7 @@
+.planeIcon{
+   @apply relative flex flex-col justify-center items-center w-full
+}
+
+.planeIcon:not(:first-child)::before {
+    @apply content-[''] bg-black absolute w-full h-[1px] bottom-1 -translate-y-2/4
+}
