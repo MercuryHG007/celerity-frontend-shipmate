@@ -2,7 +2,7 @@ const Button = ({label, outline, small}) => {
   return (
     <div
         className={`
-            flex justify-center items-center hover:opacity-80 transition w-[150px] rounded-lg border-[#6F57E9]
+            flex justify-center items-center hover:opacity-80 cursor-pointer transition w-[150px] rounded-lg border-[#6F57E9]
             ${outline ? 'bg-white ' : 'bg-[#6F57E9] '}
             ${outline ? 'text-black ' : 'text-white '}
             ${small ? 'py-1' : 'py-3'}
