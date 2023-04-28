@@ -1,7 +1,7 @@
 import React from 'react'
 import Step from './Step'
 
-function ProgressBar() {
+const ProgressBar = ({ active = null }) => {
   const steps = [
     {
       num: 1,
@@ -17,7 +17,8 @@ function ProgressBar() {
     },
     {
       num: 4,
-      title: "Booking"
+      title: "Booking",
+      activated: active
     }
   ]
 
@@ -30,7 +31,7 @@ function ProgressBar() {
           key={step.num}
           num={step.num}
           title={step.title}
-          active={step.active}
+          active={step.activated}
         />
       ))}
     </div>

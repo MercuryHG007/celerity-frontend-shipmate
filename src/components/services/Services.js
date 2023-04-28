@@ -1,32 +1,36 @@
 import {
-  ScaleIcon,
-  BriefcaseIcon,
-  GlobeAltIcon,
-  UsersIcon
-} from '@heroicons/react/24/outline'
+  IoScaleOutline,
+  IoBriefcaseOutline,
+  IoGlobeOutline,
+} from 'react-icons/io5'
+
+import {
+  MdSupportAgent
+} from 'react-icons/md'
+
 import ServiceCard from './ServiceCard'
 
 const data = [
   {
-    icon: ScaleIcon,
-    iconColor: "#47A7FF",
+    icon: IoScaleOutline,
+    iconColor: "#0075FF",
     title: "Freight Services",
     content: "Open new Opportunites to grow your busniess. Enter new markets and discover new contitnents, We are with you, door-to-door."
   },
   {
-    icon: BriefcaseIcon,
-    iconColor: "red",
+    icon: IoBriefcaseOutline,
+    iconColor: "#FF4747",
     title: "Business Services",
     content: "We support your goals for growth with cargo insurance, online payments and paperless workflow. Take your business to the next level."
   },
   {
-    icon: GlobeAltIcon,
-    iconColor: "orange",
+    icon: IoGlobeOutline,
+    iconColor: "#FF6813",
     title: "Shipping & Logistics",
     content: "Find powerful solutions to meet your diverse transportation needs. Agile solutions to handle all your supply chain needs."
   },
   {
-    icon: UsersIcon,
+    icon: MdSupportAgent,
     iconColor: "#47A7FF",
     title: "24/7 Support",
     content: "Receive support from our experts all over the world at every stage of the process, 24/7."

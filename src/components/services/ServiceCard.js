@@ -14,7 +14,7 @@ const ServiceCard = ({
             >
                 <Icon
                     height={25}
-                    className={`mr-8 text-[${iconColor}] `}
+                    className={`text-2xl mr-5 text-[${iconColor}]`}
                 />
                 {title}
             </div>
@@ -24,7 +24,6 @@ const ServiceCard = ({
             <div
                 className="text-[#535353]"
             >
-
                 {content}
             </div>
         </div>
